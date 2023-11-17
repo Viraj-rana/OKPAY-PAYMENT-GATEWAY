@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OKPAYCOLLECT</title>
+</head>
+<body>
+    <h3>
+       WELCOME TO OK PAYCOLLECT 
+    </h3>
+    <h6><img src="https://m.media-amazon.com/images/I/51Nqphs-PNL.jpg">
+        <img src="https://m.media-amazon.com/images/I/41DCDm2nQcS.jpg"><h2>Buy $70</h2></h6><form action="payment" method="POST">
+   
+             <script
+        src="//checkout.stripe.com/v2/checkout.js"
+        class="stripe-button"
+        data-key="<%= key %>"
+        data-amount="7000"
+        data-currency="USD"
+        data-name="OKPAY"
+        data-description="BUY BOOKS ON ONE CLICK PAYMENT MODE"
+        data-locale="auto"></script>
+    </form>
+</body>
+</html>
